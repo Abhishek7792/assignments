@@ -5,7 +5,7 @@ a=float(a)
 if(a<=1000):
     print("safe to land")
 else:
-    if(a>1000 and a<5000):
+    if(a>1000 and a<=5000):
         print("bring down to 1000")
     else:
         if(a>5000):
